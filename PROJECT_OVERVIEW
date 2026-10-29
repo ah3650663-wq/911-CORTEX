@@ -1,0 +1,17 @@
+911-CORTEX — Project Overview
+
+911-CORTEX is a privacy-first competitive-readiness intelligence product being developed by 911 Esports. Its full name is Cognitive & Operational Readiness Tracking Engine, and its principle is “Know Before They Fail.” It helps esports teams understand readiness changes by comparing signals with each player’s personal baseline.
+
+CORTEX combines self-reported information, short cognitive or reaction-time assessments, gameplay indicators, and one external data source. The source has not been selected. Any integration must be assessed for access, cost, permissions, data quality, privacy, and compatibility with a responsive web application or Progressive Web App (PWA).
+
+The first minimum viable product (MVP) will prioritize a small workflow. Planned capabilities include player profiles, role-based access, manual check-ins, a short assessment, baseline tracking, interpretable readiness signals, data-sufficiency indicators, and player and coach views. These are goals, not claims that software or integrations already exist.
+
+CORTEX is a decision-support system, not a medical device or diagnostic service. It must not claim to predict failure with certainty, punish players automatically, or replace human judgment. When data is missing or insufficient, it should communicate limitations rather than produce misleading scores. Any readiness measure needs a documented definition and validation plan.
+
+Privacy and security are core requirements. The project must minimize data collection, explain data use, obtain consent, restrict role-based access, enforce authorization at the database or server layer, and document retention, deletion, and audits. Coaches should not automatically receive raw health data. Secrets and real player data must never be committed to a public repository.
+
+The platform is a responsive web application/PWA. Supabase and Vercel are candidate services, but their configuration and connectivity have not been verified. No codebase, schema, deployment, or integration should be assumed until inspected.
+
+Development will proceed in stages: establish documentation; define MVP scope and acceptance criteria; validate the external source; design architecture and permissions; implement one task at a time; test changes; and record decisions. GitHub will hold the source of truth: requirements, architecture, tasks, testing guidance, and changelog.
+
+The goal is a secure, explainable MVP that tests whether personal-baseline comparisons provide useful context for esports. Scientific validity, predictive performance, and commercial readiness require evidence.
